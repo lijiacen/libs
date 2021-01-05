@@ -1,0 +1,26 @@
+{
+  "name": "ljc_libs",
+  "version": "1.0.0",
+  "description": "组件库",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -wc roolup.config.dev.js",
+    "build": "rollup -c roolup.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijiacen/libs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijiacen/libs/issues"
+  },
+  "homepage": "https://github.com/lijiacen/libs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "rollup": "^2.35.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
