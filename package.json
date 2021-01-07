@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rollup -wc roolup.config.dev.js",
-    "build": "rollup -c roolup.config.dev.js"
+    "build": "rollup -c roolup.config.dev.js",
+    "build:prod": "rollup -c roolup.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,11 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-json": "^4.1.0",
     "rollup": "^2.35.1",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
