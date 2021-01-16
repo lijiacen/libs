@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "rollup -wc roolup.config.dev.js",
     "build": "rollup -c roolup.config.dev.js",
-    "build:prod": "rollup -c roolup.config.prod.js",
+    "build:prod": "rollup -wc roolup.config.prod.js",
     "lint": "eslint ./src"
   },
   "repository": {

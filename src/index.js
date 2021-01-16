@@ -3,10 +3,12 @@
 // import _ from 'lodash';
 // import pkg from '../package.json';
 import Test from './Test.vue';
+import Icon from './components/Icon';
 
 // console.log(pkg);
 // c();
 // console.log(common_a);
 export default function (Vue) {
   Vue.component(Test.name, Test);
+  Vue.use(Icon);
 }
